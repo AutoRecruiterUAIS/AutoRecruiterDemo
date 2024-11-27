@@ -1,9 +1,12 @@
 from ollama import chat
 from ollama import ChatResponse
 
-# python3 -m venv env
-# source env/bin/activate
+# Run this in command prompt
+# python -m venv env
+# env\Scripts\activate
 # pip install ollama
+
+# python3 main.py
 
 response: ChatResponse = chat(model='llama3.2', messages=[
     {
